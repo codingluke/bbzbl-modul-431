@@ -14,22 +14,8 @@
 
 /* * { font-family: 'Fira', sans-serif;  } */div#p>svg>foreignObject>section code *{font-family:'Fira Code',monospace}@supports (font-variation-settings:normal){div#p>svg>foreignObject>section code *{font-family:'Fira Code VF',monospace;font-size:95%}div#p>svg>foreignObject>section code div#p>svg>foreignObject>section section{--marpit-root-font-size:95%}}div#p>svg>foreignObject>section.code{font-family:'Fira Code',monospace}@supports (font-variation-settings:normal){div#p>svg>foreignObject>section.code{font-family:'Fira Code VF',monospace}}div#p>svg>foreignObject>section *{font-family:'Fira Sans',sans-serif;font-weight:400}div#p>svg>foreignObject>section .bold{font-weight:bold}div#p>svg>foreignObject>section .italic{font-style:italic}div#p>svg>foreignObject>section .oblique{font-style:oblique}div#p>svg>foreignObject>section .footnotes{position:absolute;bottom:calc(var(--marpit-root-font-size, 1rem) * 2);font-size:calc(var(--marpit-root-font-size, 1rem) * 0.6);border-top:1px solid #eee;padding-top:calc(var(--marpit-root-font-size, 1rem) * 0.5);z-index:1;left:70px;right:70px}div#p>svg>foreignObject>section div#p>svg>foreignObject>section section.footnotes{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * 0.6)}div#p>svg>foreignObject>section .footnotes.left{right:655px}div#p>svg>foreignObject>section .footnotes.right{left:655px}div#p>svg>foreignObject>section[data-marpit-advanced-background-split=right]{padding-right:calc(var(--marpit-root-font-size, 1rem) * 1)}div#p>svg>foreignObject>section .footnote-backref,div#p>svg>foreignObject>section .footnotes-sep,div#p>svg>foreignObject>section footer .footnotes,div#p>svg>foreignObject>section footer .footnotes-sep,div#p>svg>foreignObject>section header .footnotes,div#p>svg>foreignObject>section header .footnotes-sep{display:none}div#p>svg>foreignObject>section strong{color:#7b241c}div#p>svg>foreignObject>section footer{width:100%}div#p>svg>foreignObject>section{
   /* background: rgb(255, 247, 239); */background:white;justify-content:start}div#p>svg>foreignObject>section :is(h1,marp-h1){font-weight:900;letter-spacing:calc(var(--marpit-root-font-size, 1rem) * 0.05)}div#p>svg>foreignObject>section :is(h2,marp-h2){font-weight:600;color:rgb(70,70,145)}div#p>svg>foreignObject>section :is(h1,marp-h1),div#p>svg>foreignObject>section :is(h2,marp-h2),div#p>svg>foreignObject>section :is(h3,marp-h3){color:#34495e}div#p>svg>foreignObject>section :is(h1,marp-h1) strong,div#p>svg>foreignObject>section :is(h2,marp-h2) strong,div#p>svg>foreignObject>section :is(h3,marp-h3) strong{color:#2874a6 }div#p>svg>foreignObject>section :is(h1,marp-h1) a{float:right}div#p>svg>foreignObject>section :is(h1,marp-h1) sup a{float:unset}div#p>svg>foreignObject>section sup a:after,div#p>svg>foreignObject>section sup a:before{content:unset}div#p>svg>foreignObject>section a,div#p>svg>foreignObject>section a:visited{color:darkblue}
-/* section a { */
-/*   color: */
-/* } */
 
-/* big */div#p>svg>foreignObject>section.big{justify-content:center}div#p>svg>foreignObject>section.big :is(h1,marp-h1){font-size:calc(var(--marpit-root-font-size, 1rem) * 3)}div#p>svg>foreignObject>section.big :is(h2,marp-h2){font-size:calc(var(--marpit-root-font-size, 1rem) * 2)}div#p>svg>foreignObject>section.big li{font-size:calc(var(--marpit-root-font-size, 1rem) * 1.2)}
-
-/* cover */
-/* section.cover { */
-/*   justify-content: center; */
-/* } */
-/* section.cover h1 { */
-/*   font-size: 3rem; */
-/* } */
-/* section.cover marp-h1 { */
-/*   padding-top: 0; */
-/* } */
+/* big */div#p>svg>foreignObject>section.big{justify-content:center}div#p>svg>foreignObject>section.big :is(h1,marp-h1){font-size:calc(var(--marpit-root-font-size, 1rem) * 3)}div#p>svg>foreignObject>section.big :is(h2,marp-h2){font-size:calc(var(--marpit-root-font-size, 1rem) * 2)}
 
 /* small */div#p>svg>foreignObject>section .small{font-size:calc(var(--marpit-root-font-size, 1rem) * 0.8)}div#p>svg>foreignObject>section section.small{--marpit-root-font-size:calc(var(--marpit-root-font-size, 1rem) * 0.8)}div#p>svg>foreignObject>section .right{float:right}
 
@@ -39,21 +25,22 @@
 
 /* center */div#p>svg>foreignObject>section.center{text-align:center;justify-content:center}
 
-/* center */div#p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1)}div#p>svg>foreignObject>section .columns :is(h1,marp-h1):first-child,div#p>svg>foreignObject>section :is(h2,marp-h2):first-child,div#p>svg>foreignObject>section :is(h3,marp-h3):first-child{margin-top:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=content],div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id="p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-class="cover" data-theme="bbzbl" class="cover" data-marpit-pagination="1" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--class:cover;--theme:bbzbl;">
+/* center */div#p>svg>foreignObject>section .columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--marpit-root-font-size, 1rem) * 1)}div#p>svg>foreignObject>section .columns :is(h1,marp-h1):first-child,div#p>svg>foreignObject>section :is(h2,marp-h2):first-child,div#p>svg>foreignObject>section :is(h3,marp-h3):first-child{margin-top:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]{columns:initial!important;display:block!important;padding:0!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=background]:before,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:after,div#p>svg>foreignObject>section[data-marpit-advanced-background=content]:before{display:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction=vertical]{flex-direction:column}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split]>div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split,50%)}div#p>svg>foreignObject>section[data-marpit-advanced-background=background][data-marpit-advanced-background-split=right]>div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#p>svg>foreignObject>section[data-marpit-advanced-background=background]>div[data-marpit-advanced-background-container]>figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#p>svg>foreignObject>section[data-marpit-advanced-background=content],div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo]{background:transparent!important}div#p>svg>foreignObject>section[data-marpit-advanced-background=pseudo],div#p>svg[data-marpit-svg]>foreignObject[data-marpit-advanced-background=pseudo]{pointer-events:none!important}div#p>svg>foreignObject>section[data-marpit-advanced-background-split]{width:100%;height:100%}</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id="p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-class="cover" data-theme="bbzbl" class="cover" data-marpit-pagination="1" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--class:cover;--theme:bbzbl;">
 <header>Modul 431 - IPERKA</header>
 
 <h1>Modul 431</h1>
 <h1 is="marp-h1" data-auto-scaling> IPERKA</h1>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-marpit-fragments="6" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-class="no-float-link" data-theme="bbzbl" class="no-float-link" data-marpit-pagination="2" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--class:no-float-link;--theme:bbzbl;">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-marpit-fragments="6" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-class="no-float-link" data-theme="bbzbl" class="no-float-link" data-marpit-pagination="2" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--class:no-float-link;--theme:bbzbl;">
 <header>Modul 431 - IPERKA</header>
 
 <h1>Modell der vollständigen Handlung</h1>
-<div class="columns"><div>
-<h2>Definition <sup><a href="https://de.wikipedia.org/wiki/Modell_der_vollst%C3%A4ndigen_Handlung">1</a></sup></h2>
+<div class="columns undefined"><div>
+<h2>Definition</h2>
 <blockquote>
-<p>Es soll der Praxis im Berufsleben entsprechen und den Schülern ermöglichen, <strong>handlungsorientiert</strong> zu lernen um die erworbenen <strong>Handlungskompetenzen</strong> im späteren Berufsleben <strong>selbständig</strong> auf andere Arbeitsprozesse übertragen zu können.</p>
+<p>Es soll der Praxis im Berufsleben entsprechen und den Schülern ermöglichen, <strong>handlungsorientiert</strong> zu lernen um die erworbenen <strong>Handlungskompetenzen</strong> im späteren Berufsleben <strong>selbständig</strong> auf andere Arbeitsprozesse übertragen zu können.<br />
+-- <a href="https://de.wikipedia.org/wiki/Modell_der_vollst%C3%A4ndigen_Handlung">Wikipedia</a></p>
 </blockquote>
 </div><div>
 <h2>Die sechs Stufen</h2>
@@ -66,9 +53,10 @@
 <li data-marpit-fragment="6"><strong>Auswerten</strong></li>
 </ol>
 </div></div>
+</div></div>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;--marpit-advanced-background-split:35%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;./images/iperka-zeitachse.png&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="65%" height="720"><section id="3" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;--marpit-advanced-background-split:35%;" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;--marpit-advanced-background-split:35%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;./images/iperka-zeitachse.png&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="65%" height="720"><section id="3" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;--marpit-advanced-background-split:35%;" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <header>Modul 431 - IPERKA</header>
 <h1>Gemeinsames Brainstorming</h1>
 
@@ -95,10 +83,10 @@
 </ol>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
-</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="7" style="" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="4" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
+</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="3" data-marpit-pagination-total="6" style="" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="4" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
 <header>Modul 431 - IPERKA</header>
 <h1>Arbeitsauftrag 1 <img class="emoji" draggable="false" alt="📝" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f4dd.svg" data-marp-twemoji=""/></h1>
-<div class="columns"><div>
+<div class="columns undefined"><div>
 <p>Ordnen Sie die Fragen des folgenden Fragebogen den 6 Schritten zu:</p>
 <p><a href="https://docs.google.com/spreadsheets/d/1nLLSKc_HXZzrvfeEwa79blUbbQoYpww23377OXSqYqk/edit#gid=0"><img class="emoji" draggable="false" alt="🔗" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f517.svg" data-marp-twemoji=""/> Fragebogen</a></p>
 <blockquote>
@@ -117,12 +105,13 @@
 </li>
 </ul>
 </div></div>
+</div></div>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="5" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="5" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
 <header>Modul 431 - IPERKA</header>
 <h1>Arbeitsauftrag 2 <img class="emoji" draggable="false" alt="📝" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f4dd.svg" data-marp-twemoji=""/></h1>
-<div class="columns"><div>
+<div class="columns undefined"><div>
 <p>Sie erhalten von Ihrem Bildungs-verantwortlichen einen <strong>Auftrag mit sehr wenigen Angaben</strong>.</p>
 <ul>
 <li>Wie gehen Sie vor, wenn Sie <strong>weitere Informationen benötigen</strong> und den Bildungsverantwortlichen selber an diesem Tag nicht mehr fragen können?</li>
@@ -139,10 +128,11 @@
 </li>
 </ul>
 </div></div>
+</div></div>
 <h2><img class="emoji" draggable="false" alt="👉" src="https://twemoji.maxcdn.com/v/14.0.2/svg/1f449.svg" data-marp-twemoji=""/> Eintrag im ePortfolio unter IPERKA Reflexion!</h2>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="6" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="6" data-marpit-pagination-total="6" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
 <header>Modul 431 - IPERKA</header>
 <h1>Vorgehen fürs ePortfolio</h1>
 <ul>
@@ -161,14 +151,6 @@
 <li>Die Notizen vom IPERKA Arbeitsauftrag dürfen gerne mit einfliessen</li>
 </ul>
 </li>
-</ul>
-<footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-header="Modul 431 - IPERKA" data-footer="BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen" data-theme="bbzbl" data-marpit-pagination="7" data-marpit-pagination-total="7" style="--paginate:true;--header:Modul 431 - IPERKA;--footer:BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen;--theme:bbzbl;">
-<header>Modul 431 - IPERKA</header>
-<h1>Quellen</h1>
-<ul>
-<li><a href="https://de.wikipedia.org/wiki/Modell_der_vollst%C3%A4ndigen_Handlung">https://de.wikipedia.org/wiki/Modell_der_vollständigen_Handlung</a></li>
 </ul>
 <footer>BBZBL / Lukas Hodel / Aufträge im IT-Umfeld selbstständig durchführen</footer>
 </section>
